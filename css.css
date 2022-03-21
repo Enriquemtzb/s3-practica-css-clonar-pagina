@@ -1,0 +1,583 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgb(255, 255, 255);
+}
+
+header {
+    width: 100%;
+    height: 70px;
+}
+
+.azul p a {
+    text-decoration: none;
+    width: 30%;
+    height: 40px;
+    padding-top: 10px;
+    float: left;
+    box-sizing: content-box;
+}
+
+.azul p a {
+    color: rgb(0, 0, 255);
+    font-size: 20px;
+    font-weight: 750;
+}
+
+.azul li {
+    display: inline-block;
+    text-align: center;
+}
+
+.ader p a {
+    text-decoration: none;
+    width: 30%;
+    height: 40px;
+    padding-top: 10px;
+    float: right;
+    box-sizing: content-box;
+}
+
+.ader p a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 750;
+}
+
+.ader p a {
+    list-style: none;
+    padding: 10;
+    background: blue;
+    width: 90%;
+    max-width: 200px;
+    margin: auto;
+}
+
+.ader p a {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(158, 157, 163);
+    padding: 20px;
+    display: block;
+    font-weight: 750;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background: darkblue;
+}
+
+.tittle p a {
+    text-decoration: none;
+    width: 60%;
+    height: 90px;
+    padding-top: 10px;
+    float: left;
+    box-sizing: content-box;
+}
+
+.tittle p a {
+    color: rgb(31, 3, 109);
+    font-size: 50px;
+}
+
+.tittle p a {
+    padding: 10;
+    background: rgb(255, 255, 255);
+    width: 90%;
+    max-width: 350px;
+    margin: auto;
+}
+
+.tittle p a {
+    display: inline-block;
+    text-align: left;
+    font-weight: 750;
+}
+
+.tittle p a {
+    text-decoration: none;
+    width: 30%;
+    height: 90px;
+    padding-top: 10px;
+    float: left;
+}
+
+.content p a {
+    color: rgb(158, 157, 163);
+    font-size: 20px;
+}
+
+.content p a {
+    padding: 10;
+    background: rgb(255, 255, 255);
+    width: 90%;
+    max-width: 350px;
+    margin: auto;
+}
+
+.content p a {
+    display: inline-block;
+    text-align: left;
+}
+
+.content p a {
+    text-decoration: none;
+    width: 30%;
+    height: 60px;
+    padding-top: 10px;
+    float: left;
+    box-sizing: content-box;
+}
+
+.imgdoc p a {
+    float: right;
+}
+
+.schedule p a {
+    text-decoration: none;
+    width: 30%;
+    height: 20px;
+    padding-top: 0px;
+    float: left;
+    box-sizing: content-box;
+}
+
+.schedule p a {
+    color: rgb(35, 2, 124);
+    font-size: 15px;
+}
+
+.schedule p a {
+    padding: 0;
+    background: rgb(255, 255, 255);
+    width: 30%;
+    max-width: 300px;
+    margin: auto;
+}
+
+.schedule p a {
+    display: inline-block;
+    text-align: left;
+    font-weight: 750;
+}
+
+.location p a {
+    text-decoration: none;
+    width: 20%;
+    height: 10px;
+    padding-top: 0px;
+    float: left;
+    box-sizing: content-box;
+}
+
+.location p a {
+    color: rgb(35, 2, 124);
+    font-size: 15px;
+}
+
+.location p a {
+    padding: 0;
+    width: 20%;
+    max-width: 90px;
+    margin: auto;
+}
+
+.location p a {
+    display: inline-block;
+    text-align: left;
+    font-weight: 500;
+}
+
+.selectorlocation p a {
+    text-decoration: none;
+    width: 20%;
+    height: 10px;
+    padding-top: 0px;
+    float: left;
+    box-sizing: content-box;
+}
+
+.selectorlocation p a {
+    color: rgb(35, 2, 124);
+    font-size: 15px;
+}
+
+.selectorlocation p a {
+    padding: 0;
+    width: 20%;
+    max-width: 90px;
+    margin: auto;
+}
+
+.selectorlocation p a {
+    display: inline-block;
+    text-align: left 20px;
+    font-weight: 500;
+}
+
+.dat p a {
+    text-decoration: none;
+    width: 20%;
+    height: 10px;
+    padding-top: 0px;
+    float: left;
+    box-sizing: content-box;
+}
+
+.dat p a {
+    color: rgb(35, 2, 124);
+    font-size: 15px;
+}
+
+.dat p a {
+    padding: 0;
+    width: 20%;
+    max-width: 150px;
+    margin: auto;
+}
+
+.dat p a {
+    display: inline-block;
+    text-align: left;
+    font-weight: 500;
+}
+
+.date p a {
+    text-decoration: none;
+    width: 20%;
+    height: 10px;
+    padding-top: 0px;
+    float: left;
+    box-sizing: content-box;
+}
+
+.date p a {
+    color: rgb(35, 2, 124);
+    font-size: 15px;
+}
+
+.date p a {
+    padding: 0;
+    width: 20%;
+    max-width: 150px;
+    margin: auto;
+}
+
+.date p a {
+    display: inline-block;
+    text-align: left;
+    font-weight: 500;
+}
+
+.type p a {
+    text-decoration: none;
+    width: 20%;
+    height: 10px;
+    padding-top: 0px;
+    float: left;
+    box-sizing: content-box;
+}
+
+.type p a {
+    color: rgb(35, 2, 124);
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.788);
+}
+
+.type p a {
+    padding: 0;
+    width: 20%;
+    max-width: 80px;
+    margin: auto;
+}
+
+.type p a {
+    display: inline-block;
+    text-align: left;
+    font-weight: 500;
+}
+
+.vaccinetype p a {
+    text-decoration: none;
+    width: 20%;
+    height: 10px;
+    padding-top: 0px;
+    float: left;
+    box-sizing: content-box;
+}
+
+.vaccinetype p a {
+    color: rgb(35, 2, 124);
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.801);
+}
+
+.vaccinetype p a {
+    padding: 0;
+    width: 20%;
+    max-width: 60px;
+    margin: auto;
+}
+
+.vaccinetype p a {
+    display: inline-block;
+    text-align: left;
+    font-weight: 500;
+}
+
+.submit p a {
+    text-decoration: none;
+    width: 20%;
+    height: 22px;
+    padding-top: 5px;
+    float: right;
+    box-sizing: content-box;
+}
+
+.submit p a {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.submit p a {
+    list-style: none;
+    padding: 5;
+    background: blue;
+    width: 20%;
+    max-width: 100px;
+    margin: auto;
+}
+
+.submit p a {
+    display: inline-block;
+    text-align: center;
+}
+
+.why p a {
+    text-decoration: none;
+    width: 60%;
+    height: 30px;
+    padding-top: 10px;
+    float: left;
+    box-sizing: content-box;
+}
+
+.why p a {
+    color: rgb(31, 3, 109);
+    font-size: 25px;
+}
+
+.why p a {
+    padding: 0;
+    width: 90%;
+    max-width: 300px;
+    margin: auto;
+}
+
+.why p a {
+    display: inline-block;
+    text-align: left;
+    font-weight: 700;
+}
+
+.contwhy p a {
+    color: rgb(158, 157, 163);
+    font-size: 20px;
+}
+
+.contwhy p a {
+    padding: 10;
+    background: rgb(255, 255, 255);
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+}
+
+.contwhy p a {
+    display: inline-block;
+    text-align: left;
+}
+
+.contwhy p a {
+    text-decoration: none;
+    width: 40%;
+    height: 60px;
+    padding-top: 10px;
+    float: left;
+    box-sizing: content-box;
+}
+
+.benefits p a {
+    text-decoration: none;
+    width: 80%;
+    height: 20px;
+    padding-top: 20px;
+    float: center;
+    box-sizing: content-box;
+}
+
+.benefits p a {
+    color: rgb(109, 109, 110);
+    font-size: 20px;
+}
+
+.benefits p a {
+    padding: 20;
+    width: 90%;
+    max-width: 100px;
+    margin: auto;
+}
+
+.benefits p a {
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+}
+
+.before p a {
+    text-decoration: none;
+    width: 60%;
+    height: 30px;
+    padding-top: 5px;
+    float: right;
+    box-sizing: content-box;
+}
+
+.before p a {
+    color: rgb(18, 1, 163);
+    font-size: 30px;
+}
+
+.before p a {
+    padding: 5;
+    width: 60%;
+    max-width: 60%;
+    margin: auto;
+}
+
+.before p a {
+    display: inline-block;
+    text-align: left;
+    font-weight: 700;
+}
+
+.befcontet p a {
+    text-decoration: none;
+    width: 60%;
+    height: 80px;
+    padding-top: 10px;
+    float: right;
+    box-sizing: content-box;
+}
+
+.befcontet p a {
+    color: rgb(148, 148, 148);
+    font-size: 20px;
+}
+
+.befcontet p a {
+    padding: 10;
+    width: 60%;
+    max-width: 60%;
+    margin: auto;
+}
+
+.befcontet p a {
+    display: inline-block;
+    text-align: left;
+    font-weight: 700;
+}
+
+.befsub p a {
+    text-decoration: none;
+    width: 60%;
+    height: 40px;
+    padding-top: 10px;
+    float: right;
+    box-sizing: content-box;
+}
+
+.befsub p a {
+    color: rgb(148, 148, 148);
+    font-size: 20px;
+}
+
+.befsub p a {
+    padding: 10;
+    width: 60%;
+    max-width: 60%;
+    margin: auto;
+}
+
+.befsub p a {
+    display: inline-block;
+    text-align: left;
+    font-weight: 700;
+}
+
+.Contact p a {
+    text-decoration: none;
+    width: 60%;
+    height: 30px;
+    padding-top: 5px;
+    float: left;
+    box-sizing: content-box;
+}
+
+.Contact p a {
+    color: rgb(18, 1, 163);
+    font-size: 30px;
+}
+
+.Contact p a {
+    padding: 5;
+    width: 50%;
+    max-width: 50%;
+    margin: auto;
+}
+
+.Contact p a {
+    display: inline-block;
+    text-align: left;
+    font-weight: 700;
+}
+
+.contactcont p a {
+    text-decoration: none;
+    width: 45%;
+    height: 80px;
+    padding-top: 10px;
+    float: left;
+    box-sizing: content-box;
+}
+
+.contactcont p a {
+    color: rgb(148, 148, 148);
+    font-size: 20px;
+}
+
+.contactcont p a {
+    padding: 10;
+    width: 45%;
+    max-width: 45%;
+    margin: auto;
+}
+
+.contactcont p a {
+    display: inline-block;
+    text-align: left;
+    font-weight: 700;
+}
+
+.imgfin p a {
+    float: right;
+}
